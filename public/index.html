@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Quote and Bio API</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <h1>Quote and Bio API</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="add-quote.html">Add a New Quote</a>
+    <a href="add-bio.html">Add a New Bio</a>
+  </nav>
+  <h2>Get Quotes</h2>
+  <div class="request-buttons">
+    <div>
+      <button id="fetch-random">Fetch a Random Quote</button>
+      <button id="fetch-quotes">Fetch all Quotes</button>
+    </div>
+    <div>
+      <input id="author" placeholder="Enter author name">
+      <button id="fetch-by-author">Fetch Quotes by Author</button>
+    </div>
+  </div>
+  <div id="quote-container">
+  </div>
+  
+  <h2>Get Bios</h2>
+  <div class="request-buttons">
+    <div>
+      <button id="fetch-random-bio">Fetch a Random Bio</button>
+      <button id="fetch-all-bios">Fetch all Bios</button>
+    </div>
+    <div>
+      <input id="bio-author" placeholder="Enter person name">
+      <button id="fetch-bio-by-name">Fetch Bio by Name</button>
+    </div>
+  </div>
+  <div id="bio-container">
+  </div>
+
+  <p class="created-by">Created by EspeeeBne</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
